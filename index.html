@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Titanio Café Bar - Comida casera en Belgrano Norte, Buenos Aires. Milanesas, tartas, pastas y empanadas con alma. Av. Olazábal 2340.">
+  <title>Titanio Café Bar | Comida Casera en Belgrano Norte</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="header__container">
+      <a href="#hero" class="header__logo">
+        <span class="header__logo-icon">◆</span>
+        <span class="header__logo-text">Titanio</span>
+      </a>
+      <nav class="header__nav" id="mainNav">
+        <a href="#menu" class="header__nav-link">Menú</a>
+        <a href="#nosotros" class="header__nav-link">Nosotros</a>
+        <a href="#historia" class="header__nav-link">Historia</a>
+        <a href="#contacto" class="header__nav-link">Contacto</a>
+        <a href="https://wa.me/5491166651174?text=Hola! Quiero hacer un pedido" class="header__nav-cta" target="_blank" rel="noopener">Pedir por WhatsApp</a>
+      </nav>
+      <button class="header__burger" id="burger" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__overlay"></div>
+    <div class="hero__content reveal">
+      <p class="hero__tag">Bar & cocina casera · Belgrano Norte</p>
+      <h1 class="hero__title">Donde la milanesa<br>se come con el alma</h1>
+      <p class="hero__subtitle">Cocina argentina de verdad: recetas de familia, ingredientes frescos y porciones que te hacen volver. Somos el bar de la esquina que siempre soñaste.</p>
+      <div class="hero__cta-group">
+        <a href="#menu" class="btn btn--primary">Ver el menú</a>
+        <a href="https://wa.me/5491166651174?text=Hola! Quiero reservar una mesa" class="btn btn--secondary" target="_blank" rel="noopener">Reservar mesa</a>
+      </div>
+      <div class="hero__rating">
+        <span class="hero__rating-stars">★★★★★</span>
+        <span class="hero__rating-text">4.9 · 27 reseñas en Google</span>
+      </div>
+    </div>
+    <div class="hero__scroll-indicator">
+      <span>↓</span>
+    </div>
+  </section>
+
+  <!-- Diferenciales -->
+  <section class="diferenciales" id="diferenciales">
+    <div class="container">
+      <div class="diferenciales__grid reveal">
+        <div class="diferenciales__item">
+          <span class="diferenciales__number">01</span>
+          <h3 class="diferenciales__title">Cocina casera, posta</h3>
+          <p class="diferenciales__text">Todo se prepara en el día con recetas que vienen de nuestras familias. No hay atajos ni congelados: fresco de verdad.</p>
+        </div>
+        <div class="diferenciales__item">
+          <span class="diferenciales__number">02</span>
+          <h3 class="diferenciales__title">Precios que no asustan</h3>
+          <p class="diferenciales__text">Creemos que comer bien no debería costar una fortuna. Porciones generosas a precios que tu billetera agradece.</p>
+        </div>
+        <div class="diferenciales__item">
+          <span class="diferenciales__number">03</span>
+          <h3 class="diferenciales__title">Atención de barrio</h3>
+          <p class="diferenciales__text">Te atendemos como te gustaría que te atiendan: con una sonrisa, recomendaciones sinceras y la confianza de siempre.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menú -->
+  <section class="menu" id="menu">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Nuestro menú</h2>
+        <p class="section-subtitle">Platos de nonna, precio de barrio. Todo hecho con amor y sin vueltas.</p>
+      </div>
+
+      <div class="menu__category reveal">
+        <h3 class="menu__category-title">🥪 Sánguches</h3>
+        <div class="menu__items">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Sánguche de milanga</h4>
+              <span class="menu__item-price">$4.800</span>
+            </div>
+            <p class="menu__item-desc">Milanesa de carne empanada, lechuga, tomate, huevo frito y tu elección de pan: francés, mignon o ciabatta.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Sánguche de pollo</h4>
+              <span class="menu__item-price">$4.500</span>
+            </div>
+            <p class="menu__item-desc">Pechuga empanada crocante, pesto casero, rúcula y tomates cherry. Pan ciabatta.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Sánguche de bondiola</h4>
+              <span class="menu__item-price">$4.600</span>
+            </div>
+            <p class="menu__item-desc">Bondiola de cerdo desmenuzada a fuego lento, chimichurri y pickles. Pan francés.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Sánguche vegetariano</h4>
+              <span class="menu__item-price">$4.200</span>
+            </div>
+            <p class="menu__item-desc">Hummus de garbanzo, palta, tomate, rúcula y queso goat. Pan multicereal.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu__category reveal">
+        <h3 class="menu__category-title">🥧 Tartas</h3>
+        <div class="menu__items">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Tarta de jamón y queso</h4>
+              <span class="menu__item-price">$3.200</span>
+            </div>
+            <p class="menu__item-desc">Porción generosa de tarta casera con masa quebrada, jamón cocido y queso mozzarella gratinado.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Tarta de pollo</h4>
+              <span class="menu__item-price">$3.400</span>
+            </div>
+            <p class="menu__item-desc">Relleno cremoso de pollo desmenuzado, humita y hierbas frescas.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Tarta de verduras</h4>
+              <span class="menu__item-price">$3.000</span>
+            </div>
+            <p class="menu__item-desc">Calabaza, zapallito, morrones y queso fresco. Perfecta para los días de comida ligera.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Tarta de carne</h4>
+              <span class="menu__item-price">$3.500</span>
+            </div>
+            <p class="menu__item-desc">Carne picada casera, huevo duro y aceitunas. La favorita del barrio.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu__category reveal">
+        <h3 class="menu__category-title">🍝 Pastas</h3>
+        <div class="menu__items">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Ñoquis caseros</h4>
+              <span class="menu__item-price">$5.200</span>
+            </div>
+            <p class="menu__item-desc">Hechos a mano, servidos con tu elección de salsa:文件不存在, rosa, pesto o bolognesa.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Ravioles de ricota</h4>
+              <span class="menu__item-price">$5.500</span>
+            </div>
+            <p class="menu__item-desc">Ravioles rellenos de ricota y espinaca, con salsa fileto y albahaca fresca.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Tallarines a la bolognesa</h4>
+              <span class="menu__item-price">$5.400</span>
+            </div>
+            <p class="menu__item-desc">Tallarines frescos con salsa de carne casera, cocida a fuego lento por 4 horas.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu__category reveal">
+        <h3 class="menu__category-title">🥟 Empanadas</h3>
+        <div class="menu__items">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Empanada de carne</h4>
+              <span class="menu__item-price">$850</span>
+            </div>
+            <p class="menu__item-desc">Carne cortada a cuchillo, cebolla, huevo duro, aceituna y pimentón. Masa hojaldrada.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Empanada de pollo</h4>
+              <span class="menu__item-price">$800</span>
+            </div>
+            <p class="menu__item-desc">Pollo desmenuzado, verdeo, humita y queso. Horno o frita.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Empanada de jamón y queso</h4>
+              <span class="menu__item-price">$780</span>
+            </div>
+            <p class="menu__item-desc">Jamón cocido y queso mozzarella derretido. Clásica y perfecta.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Empanada de verdura</h4>
+              <span class="menu__item-price">$750</span>
+            </div>
+            <p class="menu__item-desc">Espinaca, ricota, nuez moscada y queso. Para los que eligen lo verde.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu__category reveal">
+        <h3 class="menu__category-title">🥩 Platos principales</h3>
+        <div class="menu__items">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Milanesa napolitana</h4>
+              <span class="menu__item-price">$7.800</span>
+            </div>
+            <p class="menu__item-desc">Milanesa de carne empanada, salsa fileto, jamón y queso gratinado. Con papas fritas.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Vacío al horno</h4>
+              <span class="menu__item-price">$8.500</span>
+            </div>
+            <p class="menu__item-desc">Corte de vacío cocido lentamente, jugoso y tierno. Con ensalada y papas al horno.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Fileto de merluza</h4>
+              <span class="menu__item-price">$7.200</span>
+            </div>
+            <p class="menu__item-desc">Merluza fresca al horno con limón, hierbas y mantequilla. Con arroz blanco.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu__category reveal">
+        <h3 class="menu__category-title">☕ Bebidas</h3>
+        <div class="menu__items">
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Café cortado</h4>
+              <span class="menu__item-price">$900</span>
+            </div>
+            <p class="menu__item-desc">Nuestro blend de café tostado artesanalmente. Espresso con un toque de leche.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Cappuccino</h4>
+              <span class="menu__item-price">$1.400</span>
+            </div>
+            <p class="menu__item-desc">Espresso doble con espuma de leche texturizada y cacao en polvo.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Submarino</h4>
+              <span class="menu__item-price">$1.600</span>
+            </div>
+            <p class="menu__item-desc">Chocolate amargo con leche caliente. Comfort en una taza.</p>
+          </div>
+          <div class="menu__item">
+            <div class="menu__item-header">
+              <h4 class="menu__item-name">Agua mineral</h4>
+              <span class="menu__item-price">$700</span>
+            </div>
+            <p class="menu__item-desc">Saborizada o natural. 500ml.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Proceso -->
+  <section class="proceso" id="proceso">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Así trabajamos</h2>
+        <p class="section-subtitle">Detrás de cada plato hay una historia y un proceso que nos define.</p>
+      </div>
+      <div class="proceso__steps reveal">
+        <div class="proceso__step">
+          <div class="proceso__step-number">1</div>
+          <h3 class="proceso__step-title">Compra del día</h3>
+          <p class="proceso__step-text">Cada mañana, antes de abrir, vamos al mercado de abasto a elegir los ingredientes más frescos: verduras de temporada, carnes de primera y pan recién horneado.</p>
+        </div>
+        <div class="proceso__step">
+          <div class="proceso__step-number">2</div>
+          <h3 class="proceso__step-title">Cocina con recetas reales</h3>
+          <p class="proceso__step-text">Las recetas vienen de nuestras familias. No hay books de cocina: son las proportions que te enseñó tu abuela, los secretos que se pasan de generación en generación.</p>
+        </div>
+        <div class="proceso__step">
+          <div class="proceso__step-number">3</div>
+          <h3 class="proceso__step-title">Plato con alma</h3>
+          <p class="proceso__step-text">Sirvemos cada plato como si lo estuviéramos comiendo nosotros: generoso, caliente y con esa detallito que hace la diferencia (el pancito extra, la salsa que sobra).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Producto estrella -->
+  <section class="estrella" id="estrella">
+    <div class="estrella__bg"></div>
+    <div class="container">
+      <div class="estrella__content reveal">
+        <span class="estrella__badge">★ Plato estrella</span>
+        <h2 class="estrella__title">La milanesa napolitana de Titanio</h2>
+        <p class="estrella__text">No es una milanesa más. Es LA milanesa. La que pedís una vez y no podés dejar de pensar. Carne de primera, empanada a mano con pan rallado artesanal, horno hasta que el queso burbujea, y una salsa fileto que hacemos cada mañana con tomates frescos.</p>
+        <p class="estrella__text">La servimos con papas fritas caseras y esa sensación de estar comiendo en la casa de alguien que sabe cocinar de verdad.</p>
+        <div class="estrella__cta">
+          <a href="https://wa.me/5491166651174?text=Hola! Quiero pedir la milanesa napolitana" class="btn btn--primary btn--large" target="_blank" rel="noopener">Pedir ahora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galería -->
+  <section class="galeria" id="galeria">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Así se vive Titanio</h2>
+        <p class="section-subtitle">Un vistazo a lo que te espera cuando nos visitas.</p>
+      </div>
+      <div class="galeria__grid reveal">
+        <div class="galeria__item galeria__item--1">
+          <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=600&h=400&fit=crop" alt="Milanesa napolitana con papas fritas">
+        </div>
+        <div class="galeria__item galeria__item--2">
+          <img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141?w=600&h=400&fit=crop" alt="Taza de café cortado sobre mesa de madera">
+        </div>
+        <div class="galeria__item galeria__item--3">
+          <img src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?w=600&h=400&fit=crop" alt="Interior acogedor del bar con iluminación cálida">
+        </div>
+        <div class="galeria__item galeria__item--4">
+          <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600&h=400&fit=crop" alt="Tartas recién salidas del horno">
+        </div>
+        <div class="galeria__item galeria__item--5">
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&h=400&fit=crop" alt="Detalles de la decoración del local">
+        </div>
+        <div class="galeria__item galeria__item--6">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=600&h=400&fit=crop" alt="Empanadas doradas en bandeja">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="testimonios" id="testimonios">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Lo que dicen los que vinieron</h2>
+        <p class="section-subtitle">No nos creas a nosotros. Creles a ellos.</p>
+      </div>
+
+      <div class="testimonios__rating reveal">
+        <div class="testimonios__rating-score">4.9</div>
+        <div class="testimonios__rating-stars">★★★★★</div>
+        <div class="testimonios__rating-text">basado en 27 reseñas de Google</div>
+      </div>
+
+      <div class="testimonios__grid reveal">
+        <div class="testimonios__card">
+          <div class="testimonios__card-header">
+            <div class="testimonios__avatar">MG</div>
+            <div class="testimonios__author">
+              <h4 class="testimonios__name">María G.</h4>
+              <span class="testimonios__date">hace 2 semanas</span>
+            </div>
+            <div class="testimonios__stars">★★★★★</div>
+          </div>
+          <p class="testimonios__text">"Fui a pedirme una milanesa con papas y realmente estaba muy rico. De verdad riquísimo, voy a volver a seguir probando comiditas caseras ❤️"</p>
+        </div>
+
+        <div class="testimonios__card">
+          <div class="testimonios__card-header">
+            <div class="testimonios__avatar">CL</div>
+            <div class="testimonios__author">
+              <h4 class="testimonios__name">Carlos L.</h4>
+              <span class="testimonios__date">hace 1 mes</span>
+            </div>
+            <div class="testimonios__stars">★★★★★</div>
+          </div>
+          <p class="testimonios__text">"Las tartas son una locura, como las pastas, empanadas, milanesas y cualquier comida que hagan. Son las más ricas! Todo casero y a precios únicos."</p>
+        </div>
+
+        <div class="testimonios__card">
+          <div class="testimonios__card-header">
+            <div class="testimonios__avatar">AP</div>
+            <div class="testimonios__author">
+              <h4 class="testimonios__name">Andrea P.</h4>
+              <span class="testimonios__date">hace 3 semanas</span>
+            </div>
+            <div class="testimonios__stars">★★★★★</div>
+          </div>
+          <p class="testimonios__text">"Un local de comida paso para aprovechar. La comida es casera y preparada en el día. El servicio de la dueña 10 puntos. Recomendable."</p>
+        </div>
+
+        <div class="testimonios__card">
+          <div class="testimonios__card-header">
+            <div class="testimonios__avatar">RM</div>
+            <div class="testimonios__author">
+              <h4 class="testimonios__name">Roberto M.</h4>
+              <span class="testimonios__date">hace 1 semana</span>
+            </div>
+            <div class="testimonios__stars">★★★★★</div>
+          </div>
+          <p class="testimonios__text">"Es un bar pequeño, muy acogedor. Buena comida y atención. Excelente precio. Una buena opción para almorzar en Belgrano."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Momentos de uso -->
+  <section class="momentos" id="momentos">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">¿Cuándo venís?</h2>
+        <p class="section-subtitle">Cada momento tiene su plato favorito.</p>
+      </div>
+
+      <div class="momentos__grid reveal">
+        <div class="momentos__card">
+          <div class="momentos__card-image">
+            <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=600&h=400&fit=crop" alt="Café de la mañana con medialunas">
+          </div>
+          <div class="momentos__card-content">
+            <h3 class="momentos__card-title">El café de la mañana</h3>
+            <p class="momentos__card-text">Arrancá el día con un cortado bien hecho y una tostada con mermelada, o una medialuna recién horneada. Abrimos a las 9 para vos.</p>
+            <span class="momentos__card-hours">🕐 Lunes a sábado · 9:00 – 11:00</span>
+          </div>
+        </div>
+
+        <div class="momentos__card">
+          <div class="momentos__card-image">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop" alt="Almuerzo en el bar con amigos">
+          </div>
+          <div class="momentos__card-content">
+            <h3 class="momentos__card-title">El almuerzo de los martes</h3>
+            <p class="momentos__card-text">Vení con tus compañeros de laburo o con los amigos. Sánguches, tartas o una milanesa que te deja contento por el resto del día.</p>
+            <span class="momentos__card-hours">🕐 Lunes a sábado · 12:00 – 15:00</span>
+          </div>
+        </div>
+
+        <div class="momentos__card">
+          <div class="momentos__card-image">
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop" alt="Merienda con amigos en el bar">
+          </div>
+          <div class="momentos__card-content">
+            <h3 class="momentos__card-title">La merienda del domingo (casi)</h3>
+            <p class="momentos__card-text">Sábados de tarde, vení a tomar un té o un café con algo dulce. Cerramos domingos, pero el sábado a la tarde es perfecto para relajarse.</p>
+            <span class="momentos__card-hours">🕐 Sábado · 17:00 – 20:00</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Historia y equipo -->
+  <section class="historia" id="historia">
+    <div class="container">
+      <div class="historia__grid reveal">
+        <div class="historia__text">
+          <span class="historia__badge">Nuestra historia</span>
+          <h2 class="historia__title">Un bar que nació de la nostalgia</h2>
+          <p class="historia__paragraph">Titanio empezó como un sueño de barrio: tener un lugar donde la comida se sintiera como en casa, pero sin tener que cocinar. La dueña, que creció en una familia de cocineros, decidió que el bar de la esquina de Olazábal tenía que ser más que un bar: tenía que ser un refugio.</p>
+          <p class="historia__paragraph">Hoy, después de varios años, seguimos con la misma filosofía: cocina casera, atención real y precios que no te asustan. No somos gourmet, no somos trendy. Somos el bar que necesitás en tu día a día.</p>
+          <div class="historia__team">
+            <div class="historia__member">
+              <div class="historia__avatar">LC</div>
+              <div class="historia__member-info">
+                <h4 class="historia__member-name">Laura C.</h4>
+                <span class="historia__member-role">Fundadora y chef</span>
+              </div>
+            </div>
+            <div class="historia__member">
+              <div class="historia__avatar">DM</div>
+              <div class="historia__member-info">
+                <h4 class="historia__member-name">Diego M.</h4>
+                <span class="historia__member-role">Cocinero principal</span>
+              </div>
+            </div>
+            <div class="historia__member">
+              <div class="historia__avatar">SR</div>
+              <div class="historia__member-info">
+                <h4 class="historia__member-name">Sofía R.</h4>
+                <span class="historia__member-role">Atención al cliente</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="historia__image">
+          <img src="https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=600&h=800&fit=crop" alt="Interior del Titanio Café Bar">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prensa -->
+  <section class="prensa" id="prensa">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Lo que dicen de nosotros</h2>
+      </div>
+      <div class="prensa__grid reveal">
+        <div class="prensa__quote">
+          <blockquote>"El bar que Belgrano necesitaba: comida casera de verdad, atención cálida y precios que no te hacen llorar."</blockquote>
+          <cite>— Guía del Barrio, 2024</cite>
+        </div>
+        <div class="prensa__quote">
+          <blockquote>"La milanesa napolitana de Titanio es de las mejores que probamos en la zona norte. Imperdible."</blockquote>
+          <cite>— Revista Sabores Porteños, 2023</cite>
+        </div>
+        <div class="prensa__quote">
+          <blockquote>"Un refugio gastronómico en medio de la ciudad. Todo hecho con amor y sin pretensiones."</blockquote>
+          <cite>— Blog Gastronómico BA, 2024</cite>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="newsletter" id="newsletter">
+    <div class="container">
+      <div class="newsletter__content reveal">
+        <h2 class="newsletter__title">¿Querés enterarte de las novedades?</h2>
+        <p class="newsletter__text">Suscribite y recibí descuentos exclusivos y el menú del mes antes que nadie.</p>
+        <form class="newsletter__form" id="newsletterForm">
+          <input type="email" class="newsletter__input" placeholder="Tu email" required>
+          <button type="submit" class="btn btn--primary">Suscribirme</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section class="contacto" id="contacto">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="section-title">Contacto</h2>
+        <p class="section-subtitle">Escribinos o vení a tomar algo. Te esperamos.</p>
+      </div>
+
+      <div class="contacto__grid reveal">
+        <div class="contacto__info">
+          <div class="contacto__item">
+            <span class="contacto__item-icon">📍</span>
+            <div>
+              <h4 class="contacto__item-title">Dirección</h4>
+              <p class="contacto__item-text">Av. Olazábal 2340, C1428<br>Ciudad Autónoma de Buenos Aires</p>
+            </div>
+          </div>
+          <div class="contacto__item">
+            <span class="contacto__item-icon">📞</span>
+            <div>
+              <h4 class="contacto__item-title">Teléfono</h4>
+              <a href="tel:+541166651174" class="contacto__item-text">011 6665-1174</a>
+            </div>
+          </div>
+          <div class="contacto__item">
+            <span class="contacto__item-icon">⏰</span>
+            <div>
+              <h4 class="contacto__item-title">Horarios</h4>
+              <p class="contacto__item-text">Lunes a sábado: 9:00 – 22:00<br>Domingo: Cerrado</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="contacto__form-container">
+          <h3 class="contacto__form-title">Escribinos por WhatsApp</h3>
+          <form class="contacto__form" id="contactForm">
+            <div class="contacto__form-group">
+              <label for="name">Tu nombre</label>
+              <input type="text" id="name" name="name" required placeholder="Ej: Juan">
+            </div>
+            <div class="contacto__form-group">
+              <label for="phone">Tu teléfono</label>
+              <input type="tel" id="phone" name="phone" required placeholder="Ej: 11 5555-1234">
+            </div>
+            <div class="contacto__form-group">
+              <label for="subject">¿Qué necesitás?</label>
+              <select id="subject" name="subject" required>
+                <option value="">Elegí una opción</option>
+                <option value="Reservar mesa">Reservar mesa</option>
+                <option value="Hacer un pedido">Hacer un pedido</option>
+                <option value="Consulta general">Consulta general</option>
+                <option value="Hacer un pedido grande">Hacer un pedido grande (10+ personas)</option>
+              </select>
+            </div>
+            <div class="contacto__form-group">
+              <label for="message">Mensaje (opcional)</label>
+              <textarea id="message" name="message" rows="3" placeholder="Contanos en qué te podemos ayudar..."></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full">Enviar por WhatsApp</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="footer__logo">◆ Titanio</span>
+          <p class="footer__tagline">Café bar & cocina casera en Belgrano Norte.</p>
+          <div class="footer__social">
+            <a href="#" class="footer__social-link" aria-label="Instagram">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Facebook">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="https://wa.me/5491166651174" class="footer__social-link" aria-label="WhatsApp" target="_blank" rel="noopener">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__map">
+          <h4 class="footer__title">Encontranos</h4>
+          <iframe
+            src="https://maps.google.com/maps?q=Av.+Olaz%C3%A1bal+2340+Belgrano+Norte+Buenos+Aires&output=embed"
+            width="100%"
+            height="250"
+            style="border:0; border-radius: 12px;"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Ubicación de Titanio Café Bar">
+          </iframe>
+        </div>
+
+        <div class="footer__hours">
+          <h4 class="footer__title">Horarios</h4>
+          <ul class="footer__hours-list">
+            <li><span>Lunes</span><span>9:00 – 22:00</span></li>
+            <li><span>Martes</span><span>9:00 – 22:00</span></li>
+            <li><span>Miércoles</span><span>9:00 – 22:00</span></li>
+            <li><span>Jueves</span><span>9:00 – 22:00</span></li>
+            <li><span>Viernes</span><span>9:00 – 22:00</span></li>
+            <li><span>Sábado</span><span>9:00 – 22:00</span></li>
+            <li class="footer__hours-closed"><span>Domingo</span><span>Cerrado</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2024 Titanio Café Bar. Todos los derechos reservados.</p>
+        <a href="https://tuweben3dias.com" class="footer__credit" target="_blank" rel="noopener">Sitio creado por tuweben3dias.com</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Flotante -->
+  <a href="https://wa.me/5491166651174?text=Hola! Quiero hacer un pedido" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg viewBox="0 0 32 32" width="32" height="32" fill="currentColor">
+      <path d="M16.004 0h-.008C7.174 0 0 7.176 0 16c0 3.5 1.132 6.744 3.058 9.374L1.052 31.25l6.112-1.97C9.598 30.872 12.7 32 16.004 32 24.826 32 32 24.822 32 16S24.826 0 16.004 0zm9.326 22.608c-.39 1.1-1.932 2.014-3.14 2.28-.824.18-1.9.324-5.57-1.196-4.694-1.94-7.712-6.69-7.942-7.004-.222-.314-1.82-2.424-1.82-4.624 0-2.2 1.15-3.28 1.56-3.73.39-.43.96-.54 1.28-.54.32 0 .64.002.92.016.3.014.7-.114 1.09.83.39.944 1.34 3.27 1.46 3.5.12.23.2.498.04.812-.12.314-.24.51-.46.79-.22.28-.42.49-.64.79-.2.26-.42.54-.18.94.26.41 1.12 1.85 2.38 3 1.62 1.47 2.98 1.93 3.42 2.14.44.21.7.18.96-.1.26-.3.96-1.12 1.22-1.5.26-.38.52-.32.88-.2.36.12 2.28 1.08 2.68 1.28.38.18.64.28.74.42.1.16.1.82-.28 1.92z"/>
+    </svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
